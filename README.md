@@ -9,8 +9,8 @@ Bioinformatic pipeline for processing amplicon data using Dada2. Initially based
 
 ### Steps:
 1. Removes primers using atropos (https://github.com/jdidion/atropos)
-2. Runs Dada2 for quality filtering, denoising, chimera removal, read merging and ASV creation
-3. Runs Blastn search and uses MEGAN to filter BLAST results, assigning taxonomy
+2. Runs Dada2 for quality filtering, denoising, chimera removal, read merging and ASV creation (https://benjjneb.github.io/dada2/)
+3. Runs Blastn search and uses MEGAN to filter BLAST results, assigning taxonomy (https://github.com/husonlab/megan-ce)
 4. Provides further curated products and allows filtering of taxonomic species and genus annotations by bitscore and percent identity
 
 ### Ouput Folder:
