@@ -1,0 +1,350 @@
+Running script from: 
+Post_BLAST_processing_20200317_1326.sh
+Parameters read from: 
+Dada2_18S_params_S.sh
+metadata read from: 
+/home/mbonteam/MBARI/markus/scripts/S_metadata.csv
+Post Blast Directory:
+/home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Post_Blast_20200317_1622
+Script Directory:
+/home/mbonteam/dev
+_____________________________________________________
+blast output is in /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output
+16:22 /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output ,BLAST output; proceeding to MEGAN6.  Taxonomic ranks exported to files.
+/usr/local/megan/tools/blast2rma --in /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/*.xml --format BlastXML --blastMode BlastN --out /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/ --minScore 100 --maxExpected 1e-25 --topPercent 2 --minSupport 1 --lcaAlgorithm naive --lcaCoveragePercent 80
+Version   MEGAN Community Edition (version 6.18.5, built 14 Feb 2020)
+Copyright (C) 2019 Daniel H. Huson. This program comes with ABSOLUTELY NO WARRANTY.
+Loading ncbi.map: 2,175,506
+Loading ncbi.tre: 2,175,510
+Processing BlastXML file: /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker1_MB_20200317_1326_18S_nt.xml
+Output file:  /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/mbon-worker1_MB_20200317_1326_18S_nt.rma6
+Classifications: Taxonomy
+Generating RMA6 file Parsing matches
+Annotating RMA6 file using EXTENDED mode
+Parsing file mbon-worker1_MB_20200317_1326_18S_nt.xml
+Parsing file: /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker1_MB_20200317_1326_18S_nt.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (14.7s)
+Total reads:               786
+Alignments:             74,194
+100% (0.0s)
+Binning reads: Initializing...
+Initializing binning...
+Using 'Naive LCA' algorithm (80.0 %) for binning: Taxonomy
+Binning reads...
+Binning reads: Analyzing alignments
+Total reads:              786
+With hits:                 782 
+Alignments:             74,194
+Assig. Taxonomy:           733
+Binning reads: Applying min-support & disabled filter to Taxonomy...
+Min-supp. changes:           1
+Binning reads: Writing classification tables
+Numb. Tax. classes:        281
+Binning reads: Syncing
+Class. Taxonomy:           281
+100% (5.3s)
+Processing BlastXML file: /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker2_MB_20200317_1326_18S_nt.xml
+Output file:  /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/mbon-worker2_MB_20200317_1326_18S_nt.rma6
+Classifications: Taxonomy
+Generating RMA6 file Parsing matches
+Annotating RMA6 file using EXTENDED mode
+Parsing file mbon-worker2_MB_20200317_1326_18S_nt.xml
+Parsing file: /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker2_MB_20200317_1326_18S_nt.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (13.6s)
+Total reads:               786
+Alignments:             72,471
+100% (0.0s)
+Binning reads: Initializing...
+Initializing binning...
+Using 'Naive LCA' algorithm (80.0 %) for binning: Taxonomy
+Binning reads...
+Binning reads: Analyzing alignments
+Total reads:              786
+With hits:                 784 
+Alignments:             72,471
+Assig. Taxonomy:           714
+Binning reads: Applying min-support & disabled filter to Taxonomy...
+Min-supp. changes:           1
+Binning reads: Writing classification tables
+Numb. Tax. classes:        261
+Binning reads: Syncing
+Class. Taxonomy:           261
+100% (4.3s)
+Processing BlastXML file: /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker3_MB_20200317_1326_18S_nt.xml
+Output file:  /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/mbon-worker3_MB_20200317_1326_18S_nt.rma6
+Classifications: Taxonomy
+Generating RMA6 file Parsing matches
+Annotating RMA6 file using EXTENDED mode
+Parsing file mbon-worker3_MB_20200317_1326_18S_nt.xml
+Parsing file: /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker3_MB_20200317_1326_18S_nt.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (16.7s)
+Total reads:               786
+Alignments:             70,353
+100% (0.0s)
+Binning reads: Initializing...
+Initializing binning...
+Using 'Naive LCA' algorithm (80.0 %) for binning: Taxonomy
+Binning reads...
+Binning reads: Analyzing alignments
+Total reads:              786
+With hits:                 772 
+Alignments:             70,353
+Assig. Taxonomy:           699
+Binning reads: Applying min-support & disabled filter to Taxonomy...
+Min-supp. changes:           1
+Binning reads: Writing classification tables
+Numb. Tax. classes:        273
+Binning reads: Syncing
+Class. Taxonomy:           273
+100% (4.1s)
+Processing BlastXML file: /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker4_MB_20200317_1326_18S_nt.xml
+Output file:  /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/mbon-worker4_MB_20200317_1326_18S_nt.rma6
+Classifications: Taxonomy
+Generating RMA6 file Parsing matches
+Annotating RMA6 file using EXTENDED mode
+Parsing file mbon-worker4_MB_20200317_1326_18S_nt.xml
+Parsing file: /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker4_MB_20200317_1326_18S_nt.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (17.6s)
+Total reads:               786
+Alignments:             75,651
+100% (0.0s)
+Binning reads: Initializing...
+Initializing binning...
+Using 'Naive LCA' algorithm (80.0 %) for binning: Taxonomy
+Binning reads...
+Binning reads: Analyzing alignments
+Total reads:              786
+With hits:                 785 
+Alignments:             75,651
+Assig. Taxonomy:           731
+Binning reads: Applying min-support & disabled filter to Taxonomy...
+Min-supp. changes:           1
+Binning reads: Writing classification tables
+Numb. Tax. classes:        321
+Binning reads: Syncing
+Class. Taxonomy:           321
+100% (4.6s)
+Processing BlastXML file: /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker5_MB_20200317_1326_18S_nt.xml
+Output file:  /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/mbon-worker5_MB_20200317_1326_18S_nt.rma6
+Classifications: Taxonomy
+Generating RMA6 file Parsing matches
+Annotating RMA6 file using EXTENDED mode
+Parsing file mbon-worker5_MB_20200317_1326_18S_nt.xml
+Parsing file: /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker5_MB_20200317_1326_18S_nt.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (14.6s)
+Total reads:               781
+Alignments:             60,049
+100% (0.0s)
+Binning reads: Initializing...
+Initializing binning...
+Using 'Naive LCA' algorithm (80.0 %) for binning: Taxonomy
+Binning reads...
+Binning reads: Analyzing alignments
+Total reads:              781
+With hits:                 714 
+Alignments:             60,049
+Assig. Taxonomy:           578
+Binning reads: Applying min-support & disabled filter to Taxonomy...
+Min-supp. changes:           1
+Binning reads: Writing classification tables
+Numb. Tax. classes:        282
+Binning reads: Syncing
+Class. Taxonomy:           282
+100% (3.1s)
+Processing BlastXML file: /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker6_MB_20200317_1326_18S_nt.xml
+Output file:  /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/mbon-worker6_MB_20200317_1326_18S_nt.rma6
+Classifications: Taxonomy
+Generating RMA6 file Parsing matches
+Annotating RMA6 file using EXTENDED mode
+Parsing file mbon-worker6_MB_20200317_1326_18S_nt.xml
+Parsing file: /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker6_MB_20200317_1326_18S_nt.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (17.4s)
+Total reads:               786
+Alignments:             73,608
+100% (0.0s)
+Binning reads: Initializing...
+Initializing binning...
+Using 'Naive LCA' algorithm (80.0 %) for binning: Taxonomy
+Binning reads...
+Binning reads: Analyzing alignments
+Total reads:              786
+With hits:                 784 
+Alignments:             73,608
+Assig. Taxonomy:           726
+Binning reads: Applying min-support & disabled filter to Taxonomy...
+Min-supp. changes:           1
+Binning reads: Writing classification tables
+Numb. Tax. classes:        299
+Binning reads: Syncing
+Class. Taxonomy:           299
+100% (4.0s)
+Total time:  126s
+Peak memory: 1.9 of 2.1G
+Now for each Megan6 file, extract the taxonomy:
+/home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/mbon-worker1_MB_20200317_1326_18S_nt.rma6
+Version   MEGAN Community Edition (version 6.18.5, built 14 Feb 2020)
+Copyright (C) 2019 Daniel H. Huson. This program comes with ABSOLUTELY NO WARRANTY.
+Loading MEGAN File: mbon-worker1_MB_20200317_1326_18S_nt.rma6
+Loading ncbi.map: 2,175,506
+Loading ncbi.tre: 2,175,510
+Total time:  8s
+Peak memory: 1.1 of 2.1G
+/home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/mbon-worker2_MB_20200317_1326_18S_nt.rma6
+Version   MEGAN Community Edition (version 6.18.5, built 14 Feb 2020)
+Copyright (C) 2019 Daniel H. Huson. This program comes with ABSOLUTELY NO WARRANTY.
+Loading MEGAN File: mbon-worker2_MB_20200317_1326_18S_nt.rma6
+Loading ncbi.map: 2,175,506
+Loading ncbi.tre: 2,175,510
+Total time:  8s
+Peak memory: 1.1 of 2.1G
+/home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/mbon-worker3_MB_20200317_1326_18S_nt.rma6
+Version   MEGAN Community Edition (version 6.18.5, built 14 Feb 2020)
+Copyright (C) 2019 Daniel H. Huson. This program comes with ABSOLUTELY NO WARRANTY.
+Loading MEGAN File: mbon-worker3_MB_20200317_1326_18S_nt.rma6
+Loading ncbi.map: 2,175,506
+Loading ncbi.tre: 2,175,510
+Total time:  8s
+Peak memory: 1.0 of 2.1G
+/home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/mbon-worker4_MB_20200317_1326_18S_nt.rma6
+Version   MEGAN Community Edition (version 6.18.5, built 14 Feb 2020)
+Copyright (C) 2019 Daniel H. Huson. This program comes with ABSOLUTELY NO WARRANTY.
+Loading MEGAN File: mbon-worker4_MB_20200317_1326_18S_nt.rma6
+Loading ncbi.map: 2,175,506
+Loading ncbi.tre: 2,175,510
+Total time:  9s
+Peak memory: 1.0 of 2.1G
+/home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/mbon-worker5_MB_20200317_1326_18S_nt.rma6
+Version   MEGAN Community Edition (version 6.18.5, built 14 Feb 2020)
+Copyright (C) 2019 Daniel H. Huson. This program comes with ABSOLUTELY NO WARRANTY.
+Loading MEGAN File: mbon-worker5_MB_20200317_1326_18S_nt.rma6
+Loading ncbi.map: 2,175,506
+Loading ncbi.tre: 2,175,510
+Total time:  8s
+Peak memory: 1.1 of 2.1G
+/home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/mbon-worker6_MB_20200317_1326_18S_nt.rma6
+Version   MEGAN Community Edition (version 6.18.5, built 14 Feb 2020)
+Copyright (C) 2019 Daniel H. Huson. This program comes with ABSOLUTELY NO WARRANTY.
+Loading MEGAN File: mbon-worker6_MB_20200317_1326_18S_nt.rma6
+Loading ncbi.map: 2,175,506
+Loading ncbi.tre: 2,175,510
+Total time:  9s
+Peak memory: 1.1 of 2.1G
+Metadata: /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/MB_20200317_1326_18S_analysis_metadata.csv
+ASV table: /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/ASVs_counts.tsv
+taxa table: /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/tpath.txt
+Number of Samples in OTU table: 71
+XXXXXX Summary of Total Reads and ASVs by Kingdom and Phylum
+                               Total_Reads  Total_ASVs
+Kingdom    Phylum                                     
+Bacteria   Proteobacteria                2           1
+           unknown                     356           2
+Eukaryota  Annelida                  36140          33
+           Apicomplexa                1476          20
+           Arthropoda              1525021          94
+           Ascomycota                 8979          41
+           Bacillariophyta          464805         233
+           Basidiomycota              4186          30
+           Blastocladiomycota            2           1
+           Bryozoa                     897           1
+           Cercozoa                  88262         252
+           Chaetognatha              14608           5
+           Chlorophyta              180290         173
+           Chordata                   4858           8
+           Chytridiomycota              56           3
+           Ciliophora               204811         197
+           Cnidaria                  14300          20
+           Cryptomycota                 60           1
+           Cryptophyta               53458          60
+           Ctenophora                 5654           3
+           Echinodermata              6930           3
+           Euglenida                  1155           2
+           Hemichordata                357           1
+           Heterolobosea                21           2
+           Mollusca                  14949          15
+           Mucoromycota                172           2
+           Nemertea                   2518           9
+           Perkinsozoa                  17           1
+           Picozoa                    1345           5
+           Platyhelminthes               3           1
+           Porifera                     55           1
+           Rhodophyta                    4           1
+           Rotifera                   4983           4
+           Streptophyta               1919          20
+           unassigned               300545         302
+           unknown                 3556514        2603
+no_hit     no_hit                   421125         530
+unassigned unassigned                14358          31
+XXXXXX End Summary
+::: Filter XML File for PhiX and apply genus, species limits :::
+Blast XML files in : /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output
+OTU_table_taxa_all.txt : /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/ASV_taxa_table_all.csv
+python3 /home/mbonteam/dev/XML_Filter_dada2.py 200 97 150 95 /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/ASV_taxa_table_all.csv
+Species bitscore limit:  200 , Percent Identity Limit:  97
+Genus bitscore limit:  150 , Percent Identity Limit:  95
+Blast XML file:  /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker1_MB_20200317_1326_18S_nt.xml
+directory /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/
+Done parsing  /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker1_MB_20200317_1326_18S_nt.xml
+/home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker1_MB_20200317_1326_18S_nt_TopBLASThits.csv
+Blast XML file:  /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker2_MB_20200317_1326_18S_nt.xml
+directory /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/
+Done parsing  /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker2_MB_20200317_1326_18S_nt.xml
+/home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker2_MB_20200317_1326_18S_nt_TopBLASThits.csv
+Blast XML file:  /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker3_MB_20200317_1326_18S_nt.xml
+directory /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/
+Done parsing  /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker3_MB_20200317_1326_18S_nt.xml
+/home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker3_MB_20200317_1326_18S_nt_TopBLASThits.csv
+Blast XML file:  /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker4_MB_20200317_1326_18S_nt.xml
+directory /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/
+Done parsing  /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker4_MB_20200317_1326_18S_nt.xml
+/home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker4_MB_20200317_1326_18S_nt_TopBLASThits.csv
+Blast XML file:  /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker5_MB_20200317_1326_18S_nt.xml
+directory /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/
+Done parsing  /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker5_MB_20200317_1326_18S_nt.xml
+/home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker5_MB_20200317_1326_18S_nt_TopBLASThits.csv
+Blast XML file:  /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker6_MB_20200317_1326_18S_nt.xml
+directory /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/
+Done parsing  /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker6_MB_20200317_1326_18S_nt.xml
+/home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Blast_VM_output/mbon-worker6_MB_20200317_1326_18S_nt_TopBLASThits.csv
+/home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Filtered_ASV_taxa_table.csv
+XXXX  Check Stats of hits that have been filtered: XXXX
+Mean %ID of ASVs with g_: 89.86867011278194
+Mean bitscore of ASVs with g_: 179.54323308270676
+Mean %ID of ASVs with s_: 96.1189593495935
+Mean bitscore of ASVs with s_: 225.7821138211382
+/home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/ASV_tophit_Ftaxonomy.csv
+PhiX  number of OTUs:  0
+phiX  number of OTUs:  0
+Total Number OTUs with PhiX hits: 0
+No Phix OTUs removed
+Unique Kingdom IDs from taxa without a Blast hit: 
+Should just be 'no_hit':
+['no_hit']
+/home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Filtered_ASV_taxa_table_all.csv
+Finished Filtering Taxonomy by BLAST hits
+:::::::::::::::::::::::: Create JSON BIOM file ::::::::::::::::::::::::
+Create a PEAR report with the names of the read files and the assembled, discarded, and not assembled read numbers.  The report also includes the PEAR parameters
+python3 /home/mbonteam/dev/mk_PEAR_report.py  /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326
+python3: can't open file '/home/mbonteam/dev/mk_PEAR_report.py': [Errno 2] No such file or directory
+Data are in  /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/Post_Blast_20200317_1622
+
+
+OTU_table count= 4712 /home/mbonteam/MBARI/markus/processed/S/Analysis_20200317_1326/ASVs_counts.tsv
+BLAST count= 4711
+
+
+
+16:27	Biom finished! Time for a G&T...
+
+
+	~~~~ ><(((°> Gin & Tonic <°)))>< ~~~~
+	2 oz	 Gin
+	5 oz	Chilled Tonic Water
+	1	Slice of Lime
+	2	Cubes of Ice
+	1	Chilled Martini Glass
+	Shake ice and gin until well chilled
+	Strain into chilled Martini glass
+	Add tonic and lime. 
+	Put your feet up and relax, life is good. 🍹
+
+
