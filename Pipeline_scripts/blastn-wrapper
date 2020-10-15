@@ -1,0 +1,20 @@
+#! /bin/bash
+
+# Get the name of this server for the output file
+SERVER=`uname -n | cut -d'.' -f1`
+
+# Echo all the arguments and substitute the host name into the output file
+echo $@ | sed -e "s/-out /-out \/tmp\/$SERVER\_/" > /tmp/blast_arguments
+
+# Extract the output file name for the blast arguments
+OutputFile=`cat /tmp/blast_arguments | grep -o 'out [^ ,]\+' | cut -d' ' -f2`
+echo $OutputFile > /tmp/outputfile.txt
+
+# Call blast
+/usr/bin/blastn `cat /tmp/blast_arguments`
+
+# Send the file back to mbon-master
+scp $OutputFile mbon-master.shore.mbari.org:/tmp/Worker_Output/
+
+# Delete the output file
+rm -f $OutputFile
