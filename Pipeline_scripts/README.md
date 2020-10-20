@@ -2,7 +2,7 @@
 
 ## Overview:
 
-- banzai_dada2_2019v1.4.sh : overall bash script that links together bioinformatic programs and other scripts
+- **banzai_dada2_2019v1.4.sh** : overall bash script that links together bioinformatic programs and other scripts
 - Dada2_2019v1.0.R : Runs Dada2 program, called within banzai_dada2_2019v1.4.sh
 - blastn-wrapper : part of the virtual machine BLAST strategy - script resides on "worker" VMs
 - Make_otu_taxa_table.py : runs within banzai_dada2_2019v1.4.sh, takes output of Dada2 and MEGAN and formats into csv files to create the ASV and Taxa tables.
