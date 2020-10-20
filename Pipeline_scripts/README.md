@@ -13,6 +13,6 @@
 
 ## Virtual Machine BLAST strategy
 
-In order to speed up BLAST taxonomic annotations, ASVs generated through Dada2 are split into 6 input files that are run through GNU parallel to 6 "worker" virtual machines which run the blastn search in parallel. This processes is controlled by the scripts banzai_dada2_2019v1.4.sh and blastn-wrapper.
+In order to speed up BLAST taxonomic annotations, ASVs generated through Dada2 are split into 6 input files that are run through GNU parallel to 6 "worker" virtual machines which run the blastn search in parallel. This processes is controlled by the scripts **banzai_dada2_2019v1.4.sh** and **blastn-wrapper**.
 
 Since the blastn search is time intensive, this pipeline is split into Pre- and Post- BLAST bash analysis scripts, enabling re-running of Post-BLAST analyses without having to repeat the initial Dada2 and BLAST processes.
