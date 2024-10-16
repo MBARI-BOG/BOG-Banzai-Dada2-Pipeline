@@ -2,6 +2,8 @@
 
 Bioinformatic pipeline for processing amplicon data using Dada2. Initially based on the Banzai pipeline https://github.com/jimmyodonnell/banzai, this shell script has been adapted at MBARI to use a different set of programs as well as a different taxonomic annotation strategy.
 
+[![DOI](https://zenodo.org/badge/304144887.svg)](https://doi.org/10.5281/zenodo.13942113)
+
 ### MBARI Authors and Contributors
 - Reiko Michisaki, Kathleen Pitz, Markus Min
 
